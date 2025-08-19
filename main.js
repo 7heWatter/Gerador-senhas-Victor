@@ -37,6 +37,7 @@ function geraSenha() {
         numeroAleatorio = Math.flooor(numeroAleatorio);
         senha = senha = letrasMaiusculas[numeroAleatorio];
     }
+    campoSenha.value = senha;
 }
 
 
