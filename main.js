@@ -24,10 +24,10 @@ function aumentaTamanho(){
 }
 
 const campoSenha = document.querySelector('#campo-senha');
-const letrasMinusculas ='qwertyuiopasdfghjklzxcvbnm'
-const letrasMaiusculas ='QWERTYUIOPASDFGHJKLZXCVBNM'
-const numeros ='1234567890'
-const simbolos = '!@#$%¨&*()-_=+[{]}<>^~?/;:.,'
+const letrasMinusculas ='qwertyuiopasdfghjklzxcvbnm';
+const letrasMaiusculas ='QWERTYUIOPASDFGHJKLZXCVBNM';
+const numeros ='1234567890';
+const simbolos = '!@#$%¨&*()-_=+[{]}<>^~?/;:.,';
 geraSenha();
 
 function geraSenha() {
